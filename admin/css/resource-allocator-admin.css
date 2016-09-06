@@ -1,0 +1,17 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+#resourceallocator-nav .plugin-name {
+	float: left;
+	padding: 5px 0;
+}
+#resourceallocator-nav .separator {
+	margin: 6px;
+	float: left;
+}
+
+.timefield {
+        width: 4em;
+}

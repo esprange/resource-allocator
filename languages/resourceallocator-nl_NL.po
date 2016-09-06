@@ -1,0 +1,637 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Resource Allocator\n"
+"POT-Creation-Date: 2016-07-04 14:42+0200\n"
+"PO-Revision-Date: 2016-07-04 14:42+0200\n"
+"Last-Translator: Eric Sprangers <e.sprangers@sprako.nl>\n"
+"Language-Team: \n"
+"Language: nl_NL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.8\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: includes\n"
+"X-Poedit-SearchPathExcluded-0: admin/vendor\n"
+
+#: admin/class-resource-allocator-admin.php:84
+#: admin/class-resource-allocator-admin.php:85
+#: admin/class-resource-allocator-admin.php:86
+msgid "All Resources"
+msgstr "Overzicht resources"
+
+#: admin/class-resource-allocator-admin.php:91
+#: admin/class-resource-allocator-admin.php:92
+msgid "Add New Resource"
+msgstr "Nieuwe resource toevoegen"
+
+#: admin/class-resource-allocator-admin.php:93
+msgid "Add New"
+msgstr "Nieuw"
+
+#: admin/class-resource-allocator-admin.php:98
+msgid "Edit Resource"
+msgstr "Wijzig resource"
+
+#: admin/class-resource-allocator-admin.php:100
+#: admin/partials/resource-allocator-admin-display-list.php:63
+#: public/class-resource-allocator-public.php:134
+msgid "Edit"
+msgstr "Wijzig"
+
+#: admin/class-resource-allocator-admin.php:105
+msgid "Copy Resource"
+msgstr "Kopieer resource"
+
+#: admin/class-resource-allocator-admin.php:112
+msgid "Delete Resource"
+msgstr "Verwijder resource"
+
+#: admin/class-resource-allocator-admin.php:119
+#: admin/class-resource-allocator-admin.php:120
+#: admin/class-resource-allocator-admin.php:121
+msgid "Plugin Options"
+msgstr "Plugin Opties"
+
+#: admin/class-resource-allocator-admin.php:126
+#: admin/class-resource-allocator-admin.php:128
+msgid "About"
+msgstr "Over"
+
+#: admin/class-resource-allocator-admin.php:127
+msgid "About Resource Allocator"
+msgstr "Over Resource Allocator"
+
+#: admin/class-resource-allocator-admin.php:161
+#: admin/partials/resource-allocator-admin-display-edit.php:135
+msgid "Custom field name"
+msgstr "Veldnaam"
+
+#: admin/class-resource-allocator-admin.php:162
+#: admin/partials/resource-allocator-admin-display-edit.php:137
+msgid "Field type"
+msgstr "Veld type"
+
+#: admin/class-resource-allocator-admin.php:163
+#: admin/partials/resource-allocator-admin-display-edit.php:140
+msgid "Text"
+msgstr "tekst"
+
+#: admin/class-resource-allocator-admin.php:164
+msgid "Numeric"
+msgstr "getal"
+
+#: admin/class-resource-allocator-admin.php:165
+#: admin/class-resource-allocator-admin.php:262
+#: admin/class-resource-allocator-admin.php:272
+#: admin/partials/resource-allocator-admin-display-edit.php:71
+msgid "hours"
+msgstr "uren"
+
+#: admin/class-resource-allocator-admin.php:166
+#: admin/partials/resource-allocator-admin-display-edit.php:71
+msgid "days"
+msgstr "dagen"
+
+#: admin/class-resource-allocator-admin.php:188
+#: admin/class-resource-allocator-admin.php:217
+msgid "Options"
+msgstr "Opties"
+
+#: admin/class-resource-allocator-admin.php:222
+msgid "Default basis"
+msgstr "Standaard basis"
+
+#: admin/class-resource-allocator-admin.php:223
+msgid "Default minimum duration"
+msgstr "Standaard minimum duur"
+
+#: admin/class-resource-allocator-admin.php:224
+msgid "Default maximum duration"
+msgstr "Standaard maximum duur"
+
+#: admin/class-resource-allocator-admin.php:225
+msgid "Resource available color"
+msgstr "Resource beschikbaar kleur"
+
+#: admin/class-resource-allocator-admin.php:226
+msgid "Resource unavailable color"
+msgstr "Resource niet beschikbaar kleur"
+
+#: admin/class-resource-allocator-admin.php:227
+msgid "Resource allocated color"
+msgstr "Resource gereserveerd kleur"
+
+#: admin/class-resource-allocator-admin.php:238
+msgid ""
+"The Resource Allocator plugin has some options which you can change if needed"
+msgstr ""
+"De Resource Allocator plugin heeft een aantal opties welke zonodig aangepast "
+"kunnen worden"
+
+#: admin/class-resource-allocator-admin.php:249
+#: admin/partials/resource-allocator-admin-display-edit.php:93
+msgid "Hours"
+msgstr "Uren"
+
+#: admin/class-resource-allocator-admin.php:251
+#: admin/partials/resource-allocator-admin-display-edit.php:94
+msgid "Days"
+msgstr "Dagen"
+
+#: admin/class-resource-allocator-admin.php:317
+msgid "Select a valid allocation basis"
+msgstr "Selecteer een valide basis voor reserveringen"
+
+#: admin/class-resource-allocator-admin.php:325
+msgid ""
+"Enter a minimum duration larger than 0 and equal or less the maximum duration"
+msgstr ""
+"Voer een minimum duur in, groter dan 0 en gelijk of kleiner dan de maximum "
+"duur"
+
+#: admin/class-resource-allocator-admin.php:333
+msgid ""
+"Enter a maximum duration larger than 0 and equal or larger the minimum "
+"duration"
+msgstr ""
+"Voer een maximum duur in, groter dan 0 en gelijk of groter dan de minimum "
+"duur"
+
+#: admin/class-resource-allocator-admin.php:340
+#: admin/class-resource-allocator-admin.php:347
+#: admin/class-resource-allocator-admin.php:354
+msgid "Select a valid color"
+msgstr "Voer een valide kleur in"
+
+#: admin/class-resource-allocator-admin.php:360
+msgid "The options have been stored"
+msgstr "De opties zijn opgeslagen"
+
+#: admin/class-resource-allocator-admin.php:434
+msgid "Plugin Purpose"
+msgstr "Doel van de plugin"
+
+#: admin/class-resource-allocator-admin.php:436
+msgid "Usage"
+msgstr "Gebruik"
+
+#: admin/class-resource-allocator-admin.php:438
+msgid "More Information and Documentation"
+msgstr "Nadere informatie en documentatie"
+
+#: admin/class-resource-allocator-admin.php:440
+msgid "Help and Support"
+msgstr "Help en support"
+
+#: admin/class-resource-allocator-admin.php:442
+msgid "Author and License"
+msgstr "Ontwikkelaar en licentie"
+
+#: admin/class-resource-allocator-admin.php:446
+msgid "Debug and Version Information"
+msgstr "Debug en versie informatie"
+
+#: admin/class-resource-allocator-admin.php:459
+msgid "Resource Allocator"
+msgstr "Resource Allocator"
+
+#: admin/class-resource-allocator-admin.php:592
+#: admin/class-resource-allocator-admin.php:611
+#: admin/class-resource-allocator-admin.php:630
+#: admin/class-resource-allocator-admin.php:650
+msgid "Security check"
+msgstr "Security controle"
+
+#: admin/class-resource-allocator-admin.php:595
+msgid "The resource has successfully been added to the database"
+msgstr "De resource is toegevoegd aan de database"
+
+#: admin/class-resource-allocator-admin.php:597
+#: admin/class-resource-allocator-admin.php:665
+msgid ""
+"It was not possible to store the resource to the database. Please try again."
+msgstr ""
+"Het was niet mogelijk om de resource op te slaan. Probeer het alstublieft "
+"opnieuw"
+
+#: admin/class-resource-allocator-admin.php:614
+msgid "The resource has successfully been updated in the database"
+msgstr "De wijzigingen aan de resource zijn opgeslagen in de database"
+
+#: admin/class-resource-allocator-admin.php:616
+msgid ""
+"It was not possible to update the resource in the database. Please try again."
+msgstr ""
+"Het was niet mogelijk om de resource op te slaan. Probeer het alstublieft "
+"opnieuw"
+
+#: admin/class-resource-allocator-admin.php:636
+msgid "The resource has successfully been removed from the database"
+msgstr "De resource is verwijderd uit de database"
+
+#: admin/class-resource-allocator-admin.php:638
+msgid ""
+"It was not possible to remove the resource from the database. Please try "
+"again."
+msgstr ""
+"Het was niet mogelijk om de resource uit de database te verwijderen. Probeer "
+"het alstublieft opnieuw"
+
+#: admin/class-resource-allocator-admin.php:658
+msgid "Copy of "
+msgstr "Kopie van"
+
+#: admin/class-resource-allocator-admin.php:663
+msgid "A copy of the resource has successfully been stored into the database"
+msgstr "Een kopie van de resource is opgeslagen in de database"
+
+#: admin/class-resource-allocator-admin.php:668
+msgid "The selected resource could not be found in the database"
+msgstr "De geselecteerde resource was niet aanwezig (meer) in de database"
+
+#: admin/class-resource-allocator-admin.php:681
+msgid ""
+"With Resource Allocator the users of your site can allocate defined "
+"resources or check when they are in use.\n"
+"                            Resources can be all kind of things. Think about "
+"office space, meeting rooms, equipment, vehicles. The allocations per\n"
+"                            resource are shown in a table which can be made "
+"visible using a shortcode."
+msgstr ""
+"Met Resource Allocator kunnen de gebruikers van jouw site vooraf "
+"gedefinieerde resources reserveren of controleren wanneer deze in gebruik "
+"zijn. \n"
+"Resources kunnen allerhande middelen zijn. Denk bijvoorbeeld aan "
+"kantoorruimte, vergaderkamers, machines en voertuigen. \n"
+"De  reserveringen per resource worden getoond in een tabel welke middels een "
+"shortcode op de pagina getoond wordt."
+
+#: admin/class-resource-allocator-admin.php:687
+msgid ""
+"First you need to add the resource. Each resource has a name. Although the "
+"plugin does not require the\n"
+"                            name to be unique, the name is shown in the "
+"allocation table to the user. Using unique names prevents the user\n"
+"                            making incorrect allocations. "
+msgstr ""
+"Allereerst moet je de resource toevoegen. Een resource heeft een naam. De "
+"plugin vereist niet dat de naam van de plugin uniek is. De naam wordt "
+"gebruikt als titel in de tabel die aan de gebruiker wordt getoond. Door "
+"unieke namen te gebruiken voorkom je dat een gebruiker een onjuiste "
+"reservering maakt. "
+
+#: admin/class-resource-allocator-admin.php:690
+msgid ""
+"Determine if the resource is to be allocated on a day basis or by the hour. "
+"And restrict, if necessary, the \n"
+"                            limits for the duration of the allocation. By "
+"default these set to 1 (hour or day) at minimum and 999 at maximum."
+msgstr ""
+"Bepaal of de resource of dag basis of per uur gereserveerd moet kunnen "
+"worden. En stel zonodig beperkingen aan de duur van de reservering. "
+"Standaard staat dit ingesteld op minimaal 1 (uur of dag) en maximaal 999. "
+
+#: admin/class-resource-allocator-admin.php:692
+msgid ""
+"It is possible to define extra data fields that the user may fill in when "
+"creating or updating an allocation. \n"
+"                            Define the name of the field to use for display "
+"in the allocation table. Use short, meaningfull names, as they are used \n"
+"                            in the allocation entry form and in the "
+"allocation table itself. Again, it is not required to use unique names but\n"
+"                            strongly advised to prevents mistakes. Per field "
+"the input can be restricted to text or numbers only. The order in which\n"
+"                            the fields are created also defines the order in "
+"which they are displayed in the allocation table."
+msgstr ""
+"Het is mogelijk om extra datavelden toe te voegen welke de gebruiker kan "
+"invullen bij het aanmaken of wijzigen van een reservering. De naam van het "
+"veld wordt gebruikt in de reserveringen tabel. Gebruik korte, betekenisvolle "
+"namen omdat deze zowel gebruikt worden in het reserveringsformulier als in "
+"de tabel zelf. Het is niet persé nodig om unieke namen te gebruiken maar het "
+"voorkomt uiteraard wel mogelijke invoer fouten. Per veld kan de invoer "
+"beperkt worden tot tekst of numeriek. De volgorde waarin de velden "
+"gedefinieerd zijn bepaalt ook de volgorde waarin ze worden weergegeven in de "
+"reserveringen tabel."
+
+#: admin/class-resource-allocator-admin.php:700
+msgid ""
+"Additional information can be found at the plugin site HYPERLINK TO BE ADDED "
+"or the Wordpress Plugins page HYPERLINK TO BE ADDED"
+msgstr ""
+"Meer informatie kan gevonden worden op de plugin site HYPERLINK TO BE ADDED "
+"of the Wordpress Plugins pagina HYPERLINK TO BE ADDED"
+
+#: admin/class-resource-allocator-admin.php:708
+#, php-format
+msgid ""
+"This plugin was written and developed by <a href=\"%s\">Eric Sprangers</a>. "
+msgstr "Deze plugin is ontwikkeld door <a href=\"%s\"> Eric Sprangers </a>."
+
+#: admin/class-resource-allocator-admin.php:709
+msgid ""
+"It is licensed as Free Software under GNU General Public License 2 (GPL 2)."
+msgstr ""
+"De GNU General Public License 2 (GPL 2) voor Free Software is van toepassing."
+
+#: admin/class-resource-allocator-admin.php:711
+#, php-format
+msgid ""
+"If you like the plugin, <a href=\"%s\"><strong>giving a donation</strong></"
+"a> is recommended. "
+msgstr ""
+"Als je de plugin waardeert wordt <a href=\"%s\"><strong>het geven van een "
+"donatie</strong></a> aangeraden."
+
+#: admin/class-resource-allocator-admin.php:712
+#, php-format
+msgid ""
+"Please rate and review the plugin in the <a href=\"%s\">WordPress Plugin "
+"Directory</a>. "
+msgstr ""
+"Scoor en review de plugin alstublieft in de <a href=\"%s\">WordPress Plugin "
+"Directory</a>."
+
+#: admin/class-resource-allocator-admin.php:714
+msgid ""
+"Donations and good ratings encourage me to further develop the plugin and to "
+"provide countless hours of support. Any amount is appreciated! Thanks!"
+msgstr ""
+"Donaties en een goede score moedigen mij aan om de plugin verder te "
+"ontwikkelen en support uren beschikbaar te stellen. Elk bedrag wordt op "
+"prijs gesteld! Bedankt!"
+
+#: admin/class-resource-allocator-admin.php:723
+msgid "Please provide this information in bug reports and support requests."
+msgstr "Geef alstublieft deze informatie mee in bug reports of support vragen"
+
+#: admin/partials/resource-allocator-admin-display-edit.php:24
+#: admin/partials/resource-allocator-admin-display-list.php:21
+#: admin/partials/resource-allocator-admin-display-options.php:20
+msgid "You do not have sufficient permissions to access this page."
+msgstr "Je hebt onvoldoende rechten om deze pagina te benaderen."
+
+#: admin/partials/resource-allocator-admin-display-edit.php:42
+msgid ""
+"All resource settings can be changed and new custom fields can be added. A "
+"custom field can be removed by clearing\n"
+"            the field name. Please remember that these changes are only "
+"effective for future allocations. \n"
+"            New custom fields will not contain values for existing "
+"allocations unless users edit the allocations."
+msgstr ""
+"Alle resource instellingen kunnen worden gewijzigd en nieuwe velden kunnen "
+"worden toegevoegd. Een veld kan worden verwijderd door de veld naam leeg te "
+"maken. Hou er rekening mee dat dergelijke wijzigingen alleen van toepassing "
+"zijn op nog in te voeren reserveringen. Nieuwe velden zullen leeg zijn voor "
+"bestaande reserveringen, behalve als de gebruiker deze alsnog wijzigt."
+
+#: admin/partials/resource-allocator-admin-display-edit.php:58
+msgid ""
+"To add a new resource, enter its name, the allocation and availability "
+"settings into the form below. \n"
+"            You can add datafields which can be used to store additional "
+"information which each allocation. \n"
+"            You can always change the name, settings and optional datafields "
+"of your resource later."
+msgstr ""
+"Om een nieuwe resource toe te voegen moeten de naam en de beschikbaarheid en "
+"reserverings instellingen in onderstaand formulier ingevuld worden. Je kan "
+"datavelden toevoegen om extra informatie op te slaan bij elke reservering. "
+"Je kan achteraf altijd de naam, instellingen en extra datavelden wijzigen.  "
+
+#: admin/partials/resource-allocator-admin-display-edit.php:63
+msgid "Sunday"
+msgstr "Zondag"
+
+#: admin/partials/resource-allocator-admin-display-edit.php:64
+msgid "Monday"
+msgstr "Maandag"
+
+#: admin/partials/resource-allocator-admin-display-edit.php:65
+msgid "Tuesday"
+msgstr "Dinsdag"
+
+#: admin/partials/resource-allocator-admin-display-edit.php:66
+msgid "Wednesday"
+msgstr "Woensdag"
+
+#: admin/partials/resource-allocator-admin-display-edit.php:67
+msgid "Thursday"
+msgstr "Donderdag"
+
+#: admin/partials/resource-allocator-admin-display-edit.php:68
+msgid "Friday"
+msgstr "Vrijdag"
+
+#: admin/partials/resource-allocator-admin-display-edit.php:69
+msgid "Saturday"
+msgstr "Zaterdag"
+
+#: admin/partials/resource-allocator-admin-display-edit.php:87
+msgid "Name"
+msgstr "Naam"
+
+#: admin/partials/resource-allocator-admin-display-edit.php:88
+msgid "Required"
+msgstr "Verplicht"
+
+#: admin/partials/resource-allocator-admin-display-edit.php:92
+msgid "Allocation is done in "
+msgstr "Reserveringen worden gedaan in"
+
+#: admin/partials/resource-allocator-admin-display-edit.php:98
+msgid "Minimum duration in "
+msgstr "Minimum duur in "
+
+#: admin/partials/resource-allocator-admin-display-edit.php:103
+msgid "Maximum duration in "
+msgstr "Maximum duur in"
+
+#: admin/partials/resource-allocator-admin-display-edit.php:111
+msgid "Available at"
+msgstr "Beschikbaar op"
+
+#: admin/partials/resource-allocator-admin-display-edit.php:119
+msgid "Start"
+msgstr "Start"
+
+#: admin/partials/resource-allocator-admin-display-edit.php:125
+msgid "End"
+msgstr "Einde"
+
+#: admin/partials/resource-allocator-admin-display-edit.php:141
+msgid "Number"
+msgstr "Getal"
+
+#: admin/partials/resource-allocator-admin-display-edit.php:147
+msgid "Add data field"
+msgstr "Voeg dataveld toe"
+
+#: admin/partials/resource-allocator-admin-display-list.php:31
+msgid ""
+"This is a list of your resources. Click the corresponding links within the "
+"list to edit, copy or delete a resource."
+msgstr ""
+"Dit is een overzicht van de resources. Klik de links aan in de lijst om een "
+"resource te wijzigen, kopieren of te verwijderen."
+
+#: admin/partials/resource-allocator-admin-display-list.php:32
+msgid ""
+"To insert a resource allocation table into a page, post, or text widget, "
+"copy its Shortcode \n"
+"        and paste it at the desired place in the editor. Each resource has a "
+"unique ID that needs to be adjusted in that Shortcode."
+msgstr ""
+"Om een reserveringen tabel in een pagina, post of widget toe te voegen, "
+"kopier de Shortcode en plak deze op de gewenste plek in de editor. Elke "
+"resource heeft een uniek ID welke in de Shortcode vermeld moet worden."
+
+#: admin/partials/resource-allocator-admin-display-list.php:38
+#: admin/partials/resource-allocator-admin-display-list.php:89
+msgid "Resource"
+msgstr "Resource"
+
+#: admin/partials/resource-allocator-admin-display-list.php:39
+#: admin/partials/resource-allocator-admin-display-list.php:90
+msgid "Date created"
+msgstr "Datum aangemaakt"
+
+#: admin/partials/resource-allocator-admin-display-list.php:40
+#: admin/partials/resource-allocator-admin-display-list.php:91
+msgid "Date modified"
+msgstr "Datum gewijzigd"
+
+#: admin/partials/resource-allocator-admin-display-list.php:47
+#, php-format
+msgid ""
+"No resources found. You should <a href=\"%1$s\">add</a> a resource to get "
+"started!"
+msgstr ""
+"Geen resources gevonden. Je moet een resource <a href=\"%1$s\">toevoegen</a> "
+"om te kunnen starten!"
+
+#: admin/partials/resource-allocator-admin-display-list.php:61
+#, php-format
+msgid "Edit %s"
+msgstr "Wijzig %s"
+
+#: admin/partials/resource-allocator-admin-display-list.php:66
+#, php-format
+msgid ""
+"Place the shortcode [resource-allocator id=%d] on your page to show the "
+"allocations for resource %s"
+msgstr ""
+"Plaats de shortcode [resource-allocator id=%d] op de pagina om de "
+"reserveringen te tonen voor resource %s"
+
+#: admin/partials/resource-allocator-admin-display-list.php:67
+msgid "Get Code"
+msgstr "Code tonen"
+
+#: admin/partials/resource-allocator-admin-display-list.php:69
+#, php-format
+msgid "Copy %s"
+msgstr "Kopieer %s"
+
+#: admin/partials/resource-allocator-admin-display-list.php:72
+msgid "Copy"
+msgstr "Kopieer"
+
+#: admin/partials/resource-allocator-admin-display-list.php:74
+#, php-format
+msgid "Delete %s"
+msgstr "Verwijder %s"
+
+#: admin/partials/resource-allocator-admin-display-list.php:75
+#, php-format
+msgid ""
+"You are about to delete this resource: %s. Press Cancel to stop, OK to delete"
+msgstr ""
+"Je staat op het punt om resource %s te verwijderen. Klik op annuleren om te "
+"stoppen, of OK om te verwijderen"
+
+#: admin/partials/resource-allocator-admin-display-list.php:78
+#: public/partials/resource-allocator-public-display-days.php:70
+msgid "Delete"
+msgstr "Verwijder"
+
+#: public/class-resource-allocator-public.php:129
+msgid "The allocation is successfull !"
+msgstr "De reservering is aangemaakt!"
+
+#: public/class-resource-allocator-public.php:130
+msgid "It was not possible to proceed this allocation"
+msgstr "Het was niet mogelijk om deze reservering te verwerken"
+
+#: public/class-resource-allocator-public.php:131
+msgid "It was not possible to show the allocations"
+msgstr "Het was niet mogelijk om de reserveringen te tonen"
+
+#: public/class-resource-allocator-public.php:132
+msgid "Do you want to change or delete the allocation ?"
+msgstr "Wil je de reservering wijzigen of verwijderen ?"
+
+#: public/class-resource-allocator-public.php:133
+msgid "Do you want to create the allocation ?"
+msgstr "Wil je de reservering aanmaken ?"
+
+#: public/class-resource-allocator-public.php:135
+msgid "Create"
+msgstr "Nieuw"
+
+#: public/class-resource-allocator-public.php:265
+msgid "The allocation could not be removed from the database"
+msgstr "De reservering kon niet uit de database verwijderd worden"
+
+#: public/class-resource-allocator-public.php:295
+msgid "The allocation could not be saved to the database"
+msgstr "De reservering kon niet in de database worden opgeslagen"
+
+#: public/class-resource-allocator-public.php:328
+#, php-format
+msgid "A resource with the id %d is undefined"
+msgstr "Er bestaat geen resource met id %d"
+
+#: public/class-resource-allocator-public.php:331
+msgid "The id is unspecified or not a valid number"
+msgstr "Het id is niet opgegeven of is niet een geldig getal"
+
+#: public/partials/resource-allocator-public-day-table.php:42
+msgid "Day"
+msgstr "Dag"
+
+#: public/partials/resource-allocator-public-day-table.php:43
+msgid "Who"
+msgstr "Wie"
+
+#: public/partials/resource-allocator-public-day-table.php:93
+msgid "-available-"
+msgstr "-beschikbaar-"
+
+#: public/partials/resource-allocator-public-display-days.php:29
+#: public/partials/resource-allocator-public-display-hours.php:29
+msgid "Allocations for"
+msgstr "Reserveringen voor"
+
+#: public/partials/resource-allocator-public-display-days.php:31
+msgid "Please wait..."
+msgstr "Even wachten alstublieft ..."
+
+#: public/partials/resource-allocator-public-display-days.php:31
+#: public/partials/resource-allocator-public-display-hours.php:31
+msgid "Allocation data is being retrieved from the database..."
+msgstr "De reserveringen worden opgehaald uit de database"
+
+#: public/partials/resource-allocator-public-display-days.php:39
+#, php-format
+msgid "Allocate %s at %s"
+msgstr "Reserveer %s op %s"
+
+#: public/partials/resource-allocator-public-display-days.php:71
+msgid "Cancel"
+msgstr "Annuleer"

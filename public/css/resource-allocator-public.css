@@ -1,0 +1,92 @@
+/**
+ * Contains all of the CSS for the public-facing functionality of the plugin
+ *
+ */
+
+/**
+ * all styles for the form
+ */
+
+div.resourceallocator-form {
+    display: none; /* intially hide the thickbox popup */
+}
+
+table.resourceallocator-form {
+    vertical-align: middle;
+    border-collapse: collapse;
+    border-spacing: 0;
+    border-style: none;
+    border: none;
+}
+
+table.resourceallocator-form tr {
+    margin: 0;
+}
+
+table.resourceallocator-form td {
+    border-style: none;
+}
+
+table.resourceallocator-form th {
+    border-style: none;
+    text-align: center;
+}
+
+table.resourceallocator-form input[type=text], select {
+    width: 100%;
+}
+
+/*
+ *  all styles for the allocations table
+ */
+div.resourceallocator {
+    overflow: auto; /* let the table scroll, it is unknown how many coluns */
+}
+
+table.resourceallocator {
+    vertical-align: middle;
+    border-collapse: collapse;
+    border-spacing: 0;
+    border-style: none;
+    font-size: small;    
+}
+
+table.resourceallocator th,td {
+    border-style:solid;
+    border-width: 0px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    overflow: hidden;
+    word-wrap: normal;
+}
+
+table.resourceallocator th[colspan] {
+    text-align: center;
+    /* vertical-align: middle; */
+}
+
+tr.resourceallocator-accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+/*    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none; */
+    transition: 0.4s;
+}
+
+/*tr.resourceallocator-accordion.resourceallocator-active, tr.resourceallocator-accordion:hover {
+    background-color: #ddd;
+}*/
+
+tr.resourceallocator-panel {
+/*    padding: 0 18px; 
+    background-color: white; */
+    display: none;
+}
+
+.timefield {
+        width: 4em;
+}
